@@ -193,7 +193,7 @@
       *textmate-gf-exclude*
       "' | sed 's:"
       *textmate-project-root* 
-      "/::'")) "\n" t))
+      "::'")) "\n" t))
 
 (defun textmate-cached-project-files (&optional root)
   (cond
